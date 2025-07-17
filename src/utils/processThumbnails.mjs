@@ -131,7 +131,7 @@ async function processThumbnails() {
             if (video.thumbnail.includes('/snaps/')) {
                 altDoodcdnUrl = video.thumbnail.replace('/snaps/', '/splash/');
             } else if (video.thumbnail.includes('/splash/')) {
-                altDoodcdnUrl = video.thumbnail.replace('/splash/', '/snaps/');
+                altDoodcdnUrl = video.thumbnail.replace('/splash/', '/splash/');
             }
             
             if (altDoodcdnUrl) {
